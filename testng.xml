@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+	<listeners>
+		<listener class-name="com.ronwinkler.TestComponents.Listeners" />
+	</listeners>
+
+  <test parallel="classes" thread-count="2" name="Portfolio Tests">
+    <classes>
+      <class name="com.ronwinkler.ProjectsCellsTests"/>
+      <class name="com.ronwinkler.ContextTests"/>
+      <class name="com.ronwinkler.NavigationTests"/>
+      <class name="com.ronwinkler.ContactFormTests"/>
+      <class name="com.ronwinkler.ExternalLinksTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
