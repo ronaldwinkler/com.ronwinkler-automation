@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Ronald\Desktop\projects\testing\com.ronwinkler\PortfolioAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">36 methods, 1 failed,   35 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods failed suite-Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Test_Suite -->
+                      <a href="#" panel-name="suite-Test_Suite" class="show-methods failed suite-Test_Suite"> (show)</a> <!-- show-methods failed suite-Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="linkedinMenuTest">linkedinMenuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods passed suite-Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Test_Suite -->
+                      <a href="#" panel-name="suite-Test_Suite" class="show-methods passed suite-Test_Suite"> (show)</a> <!-- show-methods passed suite-Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ProjectsCellsTests" class="method navigator-link" hash-for-method="ProjectInfoCellsDisplayedTest">ProjectInfoCellsDisplayedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.NavigationTests" class="method navigator-link" hash-for-method="aboutFooterTest">aboutFooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ContextTests" class="method navigator-link" hash-for-method="aboutGraphicHiddenTest">aboutGraphicHiddenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ContextTests" class="method navigator-link" hash-for-method="aboutGraphicShownTest">aboutGraphicShownTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.NavigationTests" class="method navigator-link" hash-for-method="aboutMenuTest">aboutMenuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ProjectsCellsTests" class="method navigator-link" hash-for-method="allProjectCellsDisplayed">allProjectCellsDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="codepenFooterTest">codepenFooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="codepenMenuTest">codepenMenuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.NavigationTests" class="method navigator-link" hash-for-method="contactFooterTest">contactFooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.NavigationTests" class="method navigator-link" hash-for-method="contactMenuTest">contactMenuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="copyEmailTest">copyEmailTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="donationFooterTest">donationFooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ContactFormTests" class="method navigator-link" hash-for-method="failEmailFormSubmitTest">failEmailFormSubmitTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ContactFormTests" class="method navigator-link" hash-for-method="failMessageFormSubmitTest">failMessageFormSubmitTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ContactFormTests" class="method navigator-link" hash-for-method="failNameFormSubmitTest">failNameFormSubmitTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="githubFooterTest">githubFooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="githubMenuTest">githubMenuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ContextTests" class="method navigator-link" hash-for-method="headShotHiddenTest">headShotHiddenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ContextTests" class="method navigator-link" hash-for-method="headShotShownTest">headShotShownTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.NavigationTests" class="method navigator-link" hash-for-method="homeFooterTest">homeFooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="linkedinContactTest">linkedinContactTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="linkedinFooterTest">linkedinFooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.NavigationTests" class="method navigator-link" hash-for-method="projectsFooterTest">projectsFooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.NavigationTests" class="method navigator-link" hash-for-method="projectsMenuTest">projectsMenuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="replitFooterTest">replitFooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="replitMenuTest">replitMenuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="resumeContactTest">resumeContactTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="resumeFooterTest">resumeFooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="resumeSplashTest">resumeSplashTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ContextTests" class="method navigator-link" hash-for-method="splashGraphicHiddenTest">splashGraphicHiddenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ContextTests" class="method navigator-link" hash-for-method="splashGraphicShownTest">splashGraphicShownTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ContactFormTests" class="method navigator-link" hash-for-method="successfulFormSubmitTest">successfulFormSubmitTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="twitterContactTest">twitterContactTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="twitterFooterTest">twitterFooterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.ronwinkler.ExternalLinksTests" class="method navigator-link" hash-for-method="twitterMenuTest">twitterMenuTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Suite" class="panel Test_Suite">
+          <div class="suite-Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ronwinkler.ExternalLinksTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkedinMenuTest">
+                  </a> <!-- linkedinMenuTest -->
+                  <span class="method-name">linkedinMenuTest</span>
+                  <div class="stack-trace">java.util.NoSuchElementException
+	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:760)
+	at java.base/java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:780)
+	at com.ronwinkler.pageObjects.HomePage.getChildWindowUrl(HomePage.java:275)
+	at com.ronwinkler.ExternalLinksTests.linkedinMenuTest(ExternalLinksTests.java:21)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 12 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-failed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ronwinkler.ContactFormTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="failEmailFormSubmitTest">
+                  </a> <!-- failEmailFormSubmitTest -->
+                  <span class="method-name">failEmailFormSubmitTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="failMessageFormSubmitTest">
+                  </a> <!-- failMessageFormSubmitTest -->
+                  <span class="method-name">failMessageFormSubmitTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="failNameFormSubmitTest">
+                  </a> <!-- failNameFormSubmitTest -->
+                  <span class="method-name">failNameFormSubmitTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="successfulFormSubmitTest">
+                  </a> <!-- successfulFormSubmitTest -->
+                  <span class="method-name">successfulFormSubmitTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ronwinkler.NavigationTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aboutFooterTest">
+                  </a> <!-- aboutFooterTest -->
+                  <span class="method-name">aboutFooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aboutMenuTest">
+                  </a> <!-- aboutMenuTest -->
+                  <span class="method-name">aboutMenuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactFooterTest">
+                  </a> <!-- contactFooterTest -->
+                  <span class="method-name">contactFooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactMenuTest">
+                  </a> <!-- contactMenuTest -->
+                  <span class="method-name">contactMenuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeFooterTest">
+                  </a> <!-- homeFooterTest -->
+                  <span class="method-name">homeFooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="projectsFooterTest">
+                  </a> <!-- projectsFooterTest -->
+                  <span class="method-name">projectsFooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="projectsMenuTest">
+                  </a> <!-- projectsMenuTest -->
+                  <span class="method-name">projectsMenuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ronwinkler.ContextTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aboutGraphicHiddenTest">
+                  </a> <!-- aboutGraphicHiddenTest -->
+                  <span class="method-name">aboutGraphicHiddenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="aboutGraphicShownTest">
+                  </a> <!-- aboutGraphicShownTest -->
+                  <span class="method-name">aboutGraphicShownTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="headShotHiddenTest">
+                  </a> <!-- headShotHiddenTest -->
+                  <span class="method-name">headShotHiddenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="headShotShownTest">
+                  </a> <!-- headShotShownTest -->
+                  <span class="method-name">headShotShownTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="splashGraphicHiddenTest">
+                  </a> <!-- splashGraphicHiddenTest -->
+                  <span class="method-name">splashGraphicHiddenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="splashGraphicShownTest">
+                  </a> <!-- splashGraphicShownTest -->
+                  <span class="method-name">splashGraphicShownTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ronwinkler.ProjectsCellsTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProjectInfoCellsDisplayedTest">
+                  </a> <!-- ProjectInfoCellsDisplayedTest -->
+                  <span class="method-name">ProjectInfoCellsDisplayedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="allProjectCellsDisplayed">
+                  </a> <!-- allProjectCellsDisplayed -->
+                  <span class="method-name">allProjectCellsDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ronwinkler.ExternalLinksTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="codepenFooterTest">
+                  </a> <!-- codepenFooterTest -->
+                  <span class="method-name">codepenFooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="codepenMenuTest">
+                  </a> <!-- codepenMenuTest -->
+                  <span class="method-name">codepenMenuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="copyEmailTest">
+                  </a> <!-- copyEmailTest -->
+                  <span class="method-name">copyEmailTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="donationFooterTest">
+                  </a> <!-- donationFooterTest -->
+                  <span class="method-name">donationFooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="githubFooterTest">
+                  </a> <!-- githubFooterTest -->
+                  <span class="method-name">githubFooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="githubMenuTest">
+                  </a> <!-- githubMenuTest -->
+                  <span class="method-name">githubMenuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkedinContactTest">
+                  </a> <!-- linkedinContactTest -->
+                  <span class="method-name">linkedinContactTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkedinFooterTest">
+                  </a> <!-- linkedinFooterTest -->
+                  <span class="method-name">linkedinFooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="replitFooterTest">
+                  </a> <!-- replitFooterTest -->
+                  <span class="method-name">replitFooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="replitMenuTest">
+                  </a> <!-- replitMenuTest -->
+                  <span class="method-name">replitMenuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="resumeContactTest">
+                  </a> <!-- resumeContactTest -->
+                  <span class="method-name">resumeContactTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="resumeFooterTest">
+                  </a> <!-- resumeFooterTest -->
+                  <span class="method-name">resumeFooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="resumeSplashTest">
+                  </a> <!-- resumeSplashTest -->
+                  <span class="method-name">resumeSplashTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="twitterContactTest">
+                  </a> <!-- twitterContactTest -->
+                  <span class="method-name">twitterContactTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="twitterFooterTest">
+                  </a> <!-- twitterFooterTest -->
+                  <span class="method-name">twitterFooterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="twitterMenuTest">
+                  </a> <!-- twitterMenuTest -->
+                  <span class="method-name">twitterMenuTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+        </div> <!-- panel Test_Suite -->
+        <div panel-name="test-xml-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Ronald\Desktop\projects\testing\com.ronwinkler\PortfolioAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.ronwinkler.TestComponents.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Portfolio Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ronwinkler.ProjectsCellsTests&quot;/&gt;
+      &lt;class name=&quot;com.ronwinkler.ContextTests&quot;/&gt;
+      &lt;class name=&quot;com.ronwinkler.NavigationTests&quot;/&gt;
+      &lt;class name=&quot;com.ronwinkler.ContactFormTests&quot;/&gt;
+      &lt;class name=&quot;com.ronwinkler.ExternalLinksTests&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Portfolio Tests --&gt;
+&lt;/suite&gt; &lt;!-- Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Portfolio Tests (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Suite');
+function tableData_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(36);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'homeFooterTest')
+data.setCell(0, 2, 'com.ronwinkler.NavigationTests')
+data.setCell(0, 3, 5348);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'twitterFooterTest')
+data.setCell(1, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(1, 3, 4894);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'contactFooterTest')
+data.setCell(2, 2, 'com.ronwinkler.NavigationTests')
+data.setCell(2, 3, 4891);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ProjectInfoCellsDisplayedTest')
+data.setCell(3, 2, 'com.ronwinkler.ProjectsCellsTests')
+data.setCell(3, 3, 4734);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'projectsFooterTest')
+data.setCell(4, 2, 'com.ronwinkler.NavigationTests')
+data.setCell(4, 3, 4512);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'codepenFooterTest')
+data.setCell(5, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(5, 3, 4382);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'aboutFooterTest')
+data.setCell(6, 2, 'com.ronwinkler.NavigationTests')
+data.setCell(6, 3, 4285);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'donationFooterTest')
+data.setCell(7, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(7, 3, 3683);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'twitterContactTest')
+data.setCell(8, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(8, 3, 3545);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'replitFooterTest')
+data.setCell(9, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(9, 3, 3526);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'resumeFooterTest')
+data.setCell(10, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(10, 3, 3366);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'linkedinFooterTest')
+data.setCell(11, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(11, 3, 3148);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'linkedinContactTest')
+data.setCell(12, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(12, 3, 3037);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'successfulFormSubmitTest')
+data.setCell(13, 2, 'com.ronwinkler.ContactFormTests')
+data.setCell(13, 3, 3037);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'githubFooterTest')
+data.setCell(14, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(14, 3, 2950);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'copyEmailTest')
+data.setCell(15, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(15, 3, 2655);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'twitterMenuTest')
+data.setCell(16, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(16, 3, 2559);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'contactMenuTest')
+data.setCell(17, 2, 'com.ronwinkler.NavigationTests')
+data.setCell(17, 3, 2292);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'aboutMenuTest')
+data.setCell(18, 2, 'com.ronwinkler.NavigationTests')
+data.setCell(18, 3, 2279);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'resumeContactTest')
+data.setCell(19, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(19, 3, 2221);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'projectsMenuTest')
+data.setCell(20, 2, 'com.ronwinkler.NavigationTests')
+data.setCell(20, 3, 2144);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'replitMenuTest')
+data.setCell(21, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(21, 3, 2098);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'codepenMenuTest')
+data.setCell(22, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(22, 3, 1814);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'failMessageFormSubmitTest')
+data.setCell(23, 2, 'com.ronwinkler.ContactFormTests')
+data.setCell(23, 3, 1698);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'githubMenuTest')
+data.setCell(24, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(24, 3, 1151);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'failNameFormSubmitTest')
+data.setCell(25, 2, 'com.ronwinkler.ContactFormTests')
+data.setCell(25, 3, 896);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'splashGraphicHiddenTest')
+data.setCell(26, 2, 'com.ronwinkler.ContextTests')
+data.setCell(26, 3, 801);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'headShotShownTest')
+data.setCell(27, 2, 'com.ronwinkler.ContextTests')
+data.setCell(27, 3, 590);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'resumeSplashTest')
+data.setCell(28, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(28, 3, 572);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'failEmailFormSubmitTest')
+data.setCell(29, 2, 'com.ronwinkler.ContactFormTests')
+data.setCell(29, 3, 389);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'allProjectCellsDisplayed')
+data.setCell(30, 2, 'com.ronwinkler.ProjectsCellsTests')
+data.setCell(30, 3, 385);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'aboutGraphicHiddenTest')
+data.setCell(31, 2, 'com.ronwinkler.ContextTests')
+data.setCell(31, 3, 326);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'linkedinMenuTest')
+data.setCell(32, 2, 'com.ronwinkler.ExternalLinksTests')
+data.setCell(32, 3, 241);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'splashGraphicShownTest')
+data.setCell(33, 2, 'com.ronwinkler.ContextTests')
+data.setCell(33, 3, 152);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'headShotHiddenTest')
+data.setCell(34, 2, 'com.ronwinkler.ContextTests')
+data.setCell(34, 3, 128);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'aboutGraphicShownTest')
+data.setCell(35, 2, 'com.ronwinkler.ContextTests')
+data.setCell(35, 3, 37);
+window.suiteTableData['Test_Suite']= { tableData: data, tableDiv: 'times-div-Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Test_Suite">
+              </div> <!-- times-div-Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ContextTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ProjectsCellsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ProjectInfoCellsDisplayedTest</span>
+                <span class="method-start">3445 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ContextTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aboutGraphicHiddenTest</span>
+                <span class="method-start">6904 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">7236 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">8077 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ProjectsCellsTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">8180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">9319 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">allProjectCellsDisplayed</span>
+                <span class="method-start">11729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">12117 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">12954 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ContextTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aboutGraphicShownTest</span>
+                <span class="method-start">16195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">16233 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">17021 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">headShotHiddenTest</span>
+                <span class="method-start">19047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">19178 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aboutFooterTest</span>
+                <span class="method-start">19459 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ContextTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">20611 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">23751 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">25386 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ContextTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">headShotShownTest</span>
+                <span class="method-start">27627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">28217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">29270 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">splashGraphicHiddenTest</span>
+                <span class="method-start">31326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">32130 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">aboutMenuTest</span>
+                <span class="method-start">32347 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ContextTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">33362 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">34628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">35423 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ContextTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">splashGraphicShownTest</span>
+                <span class="method-start">36493 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">36646 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ContactFormTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">37284 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">contactFooterTest</span>
+                <span class="method-start">37394 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">42286 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">43428 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ContactFormTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">failEmailFormSubmitTest</span>
+                <span class="method-start">45530 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">45920 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">contactMenuTest</span>
+                <span class="method-start">46238 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ContactFormTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">46685 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">48531 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">49163 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ContactFormTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">failMessageFormSubmitTest</span>
+                <span class="method-start">49290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">50989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">51675 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">homeFooterTest</span>
+                <span class="method-start">51852 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">57207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">58191 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ContactFormTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">failNameFormSubmitTest</span>
+                <span class="method-start">59200 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">60098 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">projectsFooterTest</span>
+                <span class="method-start">60749 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ContactFormTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">61026 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">successfulFormSubmitTest</span>
+                <span class="method-start">65020 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">65261 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">66532 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ContactFormTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">68060 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ExternalLinksTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">68773 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">projectsMenuTest</span>
+                <span class="method-start">70119 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ExternalLinksTests</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">codepenFooterTest</span>
+                <span class="method-start">71777 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.NavigationTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">72264 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ronwinkler.ExternalLinksTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">76161 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">76909 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">codepenMenuTest</span>
+                <span class="method-start">78573 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">80387 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">81055 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">copyEmailTest</span>
+                <span class="method-start">82799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">85455 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">86290 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">donationFooterTest</span>
+                <span class="method-start">88001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">91685 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">92502 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">githubFooterTest</span>
+                <span class="method-start">98294 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">101245 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">102574 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">githubMenuTest</span>
+                <span class="method-start">104300 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">105453 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">106136 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">linkedinContactTest</span>
+                <span class="method-start">107919 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">110957 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">111648 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">linkedinFooterTest</span>
+                <span class="method-start">113331 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">116479 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">117161 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">linkedinMenuTest</span>
+                <span class="method-start">118852 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">119456 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">120104 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">replitFooterTest</span>
+                <span class="method-start">125864 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">129391 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">130881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">replitMenuTest</span>
+                <span class="method-start">132579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">134678 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">135343 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">resumeContactTest</span>
+                <span class="method-start">137638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">139861 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">140587 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">resumeFooterTest</span>
+                <span class="method-start">142243 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">145612 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">146406 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">resumeSplashTest</span>
+                <span class="method-start">148055 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">148628 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">149298 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">twitterContactTest</span>
+                <span class="method-start">151074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">154621 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">155378 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">twitterFooterTest</span>
+                <span class="method-start">157043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">161937 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchApp</span>
+                <span class="method-start">162698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">twitterMenuTest</span>
+                <span class="method-start">164473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeApp</span>
+                <span class="method-start">167032 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
